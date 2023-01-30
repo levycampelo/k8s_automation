@@ -1,5 +1,6 @@
 follow ip address this test k8s:
-
-Master: 192.168.68.104
-Worker: 192.168.68.105
-Worker: 192.168.68.106
+<br>
+Master: 192.168.68.104<br>
+Worker: 192.168.68.105<br>
+Worker: 192.168.68.106<br>
+ansible: 192.168.68.108<br>
