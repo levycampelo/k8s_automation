@@ -10,3 +10,6 @@ add in /etc/hosts
 
 Script below apply only server orchestration:<br>
 install_ansible_orchestration.sh
+
+apply add-kube.yml<br>
+ansible-playbook -i hosts add-kube.yml -k -K
