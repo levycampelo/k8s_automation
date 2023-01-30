@@ -1,0 +1,12 @@
+- hosts: all
+  become: yes
+
+  tasks:
+    - name: create kube user
+      user: name=kube append=yes state=present createhome=yes shell=/bin/bash
+
+    - name: user kube without password
+      lineinfile:
+        dest: /etc/sudoers
+        line: 'kube ALL=(ALL) NOPASSWD: ALL'
+        validate: 'visudo -cf %s'
