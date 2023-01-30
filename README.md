@@ -8,5 +8,5 @@ ansible: 192.168.68.108<br>
 Archieve hosts:
 add in /etc/hosts
 
-Script below apply only server orchestration:
+Script below apply only server orchestration:<br>
 install_ansible_orchestration.sh
